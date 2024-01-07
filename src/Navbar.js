@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { links, social } from './menudata';
-// import logo from './logo.svg';
 
 export const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -22,7 +21,6 @@ export const Navbar = () => {
     <nav>
       <div className='nav-center'>
         <div className='nav-header'>
-          {/* <img src={logo} className='logo' alt='logo' /> */}
           <h3>Menu Website</h3>
           <button className='nav-toggle' onClick={toggleLinks}>
             <FaBars />
